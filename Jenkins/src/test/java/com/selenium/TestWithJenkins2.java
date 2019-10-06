@@ -29,6 +29,8 @@ class TestWithJenkins2
 	{
 		System.out.println("Inside TestWithJenkins2");
 		driver.get("https://pasv.us/");
+		String browser = System.getProperty("browser");
+		System.out.println("The browser is: " + browser);
 		
 	}
 }
